@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PortfolioStyle.css">
+    <link rel="stylesheet" href="MediaQueris.css">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">AVINASH M</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience & skills">Experience & Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">AVINASH M</div>
+    <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+         <div class="menu-links">
+            <li><a href="#about"  onclick="togglemenu()">About</a></li>
+            <li><a href="#experience & skills"  onclick="togglemenu()">Experience & Skills</a></li>
+            <li><a href="#projects"  onclick="togglemenu()">Projects</a></li>
+            <li><a href="#contact"  onclick="togglemenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Asset/Untitled design (3).png" alt="AVINASH PROFILE PICTURE">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Avinash M</h1>
+            <p class="section__text__p2">MBA STUDENT</p>
+            <div class="btn-container">
+                <button class="btn btn-color2" onclick="window.open('./asset/Avinash Resume.pdf')">Download CV
+                </button>
+                <button class="btn btn-color1" onclick="location.href='#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./Asset/linkedin.png"
+                    alt="My LinkedIn Profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/avinash-m-va721'"/>
+                <img
+                    src="./Asset/github.png"
+                    alt="My Github Profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Known More</p>
+      <h1 class="title">About</h1>
+      <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                src="./Asset/Untitled design (2).png"
+                alt="Profile Picture"
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                        src="/Asset/experience.png"
+                        alt="InternShip"
+                        class="icon">
+                        <h3>Internship</h3>
+                        <p>Learner Circle 1 Month <br /> PowerBI Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="./Asset/education.png"
+                        alt="Education"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Com Bachelor's in Commerce  <br /> MBA Master's in Business Administration  </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Motivated and Enthusiastic candidate ready to start my career in a corporate setting and to expand my knowledge and skills while making a significant contribution to the greater good of the organization. Quick learner and primed to grow along with the fast paced environment. </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="experience & skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience & Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technical Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Web Development</h3>
+                    <p>Front-End</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MYSQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Tally</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Ms Office</h3>
+                    <p>Experience</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Power BI</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Soft Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Communication</h3>
+                    <p>Professional</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Analytical Thinking</h3>
+                    <!-- <p>Intermediate</p> -->
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Time Management</h3>
+                    <!-- <p>Intermediate</p> -->
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./Asset/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Creative & Problem Solving</h3>
+                    <!-- <p>Intermediate</p> -->
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./Asset/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./Asset/webpage-creation.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Basic Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://dreamersboy-avi.github.io/Website/'"
+                >
+                  Github
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./Asset/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Local Consultancy Business</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Documentation
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./Asset/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./Asset/project-3.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./Asset/project-3.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <img
+          src="./Asset/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+     <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./Asset/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">avinashsolai@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./Asset/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/avinash-m-va721">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience & skills">Experience & Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Avinash. All Rights Reserved.</p>
+    </footer>
+    <script src="PortFolio.js"></script>
+</body>
+</html>
